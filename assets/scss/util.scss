@@ -52,23 +52,23 @@ font-family: "Roboto";
 }
 
 .text-white {
-    color: #FFFFFF;
+    color: $white;
 }
 
-.text-red {
-    color: #AA0601;
+.text-primary {
+    color: $primary;
 }
 
-.text-darkred {
-    color: #650300;
+.text-secondary {
+    color: $secondary;
 }
 
 .text-gray {
-    color: #707070;
+    color: $gray;
 }
 
 .text-emperor {
-    color: #555555;
+    color: $emperor;
 }
 
 .text-medium {
@@ -84,11 +84,11 @@ font-family: "Roboto";
 }
 
 .bg-black {
-    background: #000000;
+    background: $black;
 }
 
 .bg-white {
-    background: #ffffff;
+    background: $white;
 }
 
 .bg-concrete {
@@ -96,15 +96,15 @@ font-family: "Roboto";
 }
 
 .bg-pink {
-    background: #FBF2F2;
+    background: $pink;
 }
 
-.bg-red {
-    background: #AA0601;
+.bg-primary {
+    background: $primary;
 }
 
 .bg-darkred {
-    background: #650300;
+    background: $secondary;
 }
 
 .bg-transparent {
@@ -557,7 +557,7 @@ font-family: "Roboto";
 }
 
 .border-3 {
-    border-bottom: 1px solid #707070;
+    border-bottom: 1px solid $gray;
 }
 
 
