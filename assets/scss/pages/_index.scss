@@ -141,6 +141,7 @@
 
   @media (max-width: 768px) {
       flex-direction: column;
+      gap: 24px;
   }
 }
 
@@ -215,5 +216,5 @@
 
 
   .submit:hover {
-      background: #650300;
+      background: $secondary;
   }

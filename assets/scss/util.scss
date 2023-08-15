@@ -41,11 +41,15 @@
 .lh-6 {
     line-height: 48px;
 }
+ 
 
+.font-noto {
+    font-family: "Noto Sans TC";
+}
 
-.text-roboto {
-    font-family:'Roboto', sans-serif;
-}    
+.font-roboto {
+font-family: "Roboto";
+}
 
 .text-white {
     color: #FFFFFF;
@@ -462,7 +466,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 
     .mb-md-6 {
         margin-bottom: 24px;
