@@ -173,9 +173,18 @@ font-family: "Roboto";
 
 @media (max-width: 992px) {
 
-    .d-md-inline-block {
-        display: inline-block;
+    .d-lg-block {
+        display: block !important;
     }
+
+    .d-lg-inline-block {
+        display: inline-block !important;;
+    }
+
+    .d-lg-none {
+        display: none !important;
+    }
+
     
 }
 
@@ -184,6 +193,10 @@ font-family: "Roboto";
 
     .d-md-block {
         display: block !important;
+    }
+
+    .d-md-inline-block {
+        display: inline-block;
     }
 
     .d-md-none {
